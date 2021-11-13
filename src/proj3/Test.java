@@ -19,6 +19,28 @@ public class Test {
 		System.out.println(userInput);
 
 		String[] parts = userInput.split(" ");
+		
+		String operation = parts[1];
+		Double prvibroj = Double.parseDouble(parts[0]);
+		Double drugibroj = Double.parseDouble(parts[2]);
+		Double rezultat = 0.00;
+		
+		switch(operation) {
+		case "+":
+			rezultat = prvibroj + drugibroj;
+			break;
+		
+		case "-":
+			rezultat = prvibroj + drugibroj;
+			break;
+		case "/":
+			rezultat = prvibroj /drugibroj;
+			break;
+		default:
+		
+		
+		}
+		System.out.println(rezultat);
 	}
 
 }
