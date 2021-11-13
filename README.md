@@ -1,1 +1,2 @@
 # repoz
+Opis projekta
